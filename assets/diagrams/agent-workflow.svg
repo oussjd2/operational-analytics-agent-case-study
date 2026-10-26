@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="630" viewBox="0 0 1120 630" role="img" aria-labelledby="title desc">
+<title id="title">A question, connected to evidence</title><desc id="desc">Conceptual diagram of the implemented workflow · adapted from the portfolio</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#647875"/></marker></defs>
+<rect width="1120" height="630" rx="18" fill="#f7f7f2"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="40" y="50" font-size="25" font-weight="700" fill="#182d2d">A question, connected to evidence</text>
+<text x="40" y="79" font-size="15" fill="#516765">Conceptual diagram of the implemented workflow · adapted from the portfolio</text>
+<rect x="40" y="130" width="245" height="120" rx="12" fill="#fff" stroke="#bacac4"/>
+<text x="58" y="160" font-size="18" font-weight="700" fill="#183c38">01 · Ask</text>
+<text x="58" y="187" font-size="15" fill="#465e5a">Technician question</text>
+<text x="58" y="210" font-size="15" fill="#465e5a">KPIs, anomalies, sites, cells</text>
+<rect x="345" y="130" width="390" height="120" rx="12" fill="#e5efec" stroke="#bacac4"/>
+<text x="363" y="160" font-size="18" font-weight="700" fill="#183c38">02 · Investigate</text>
+<text x="363" y="187" font-size="15" fill="#465e5a">Agent orchestration</text>
+<text x="363" y="210" font-size="15" fill="#465e5a">Context and role-aware tools</text>
+<rect x="795" y="130" width="285" height="120" rx="12" fill="#fff" stroke="#bacac4"/>
+<text x="813" y="160" font-size="18" font-weight="700" fill="#183c38">03 · Review</text>
+<text x="813" y="187" font-size="15" fill="#465e5a">Findings with evidence</text>
+<text x="813" y="210" font-size="15" fill="#465e5a">Technician chooses next check</text>
+<path d="M285 190 H345" fill="none" stroke="#647875" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M735 190 H795" fill="none" stroke="#647875" stroke-width="2"  marker-end="url(#arrow)"/>
+<rect x="40" y="365" width="310" height="115" rx="12" fill="#fff" stroke="#bacac4"/>
+<text x="58" y="395" font-size="18" font-weight="700" fill="#183c38">Retrieve knowledge</text>
+<text x="58" y="422" font-size="15" fill="#465e5a">System documentation</text>
+<text x="58" y="445" font-size="15" fill="#465e5a">Operational context</text>
+<rect x="405" y="365" width="310" height="115" rx="12" fill="#fff" stroke="#bacac4"/>
+<text x="423" y="395" font-size="18" font-weight="700" fill="#183c38">Query records</text>
+<text x="423" y="422" font-size="15" fill="#465e5a">KPI history and logs</text>
+<text x="423" y="445" font-size="15" fill="#465e5a">Sites, cells, and anomalies</text>
+<rect x="770" y="365" width="310" height="115" rx="12" fill="#fff" stroke="#bacac4"/>
+<text x="788" y="395" font-size="18" font-weight="700" fill="#183c38">Read RCA outputs</text>
+<text x="788" y="422" font-size="15" fill="#465e5a">Candidate causes and lags</text>
+<text x="788" y="445" font-size="15" fill="#465e5a">Statistics and graphs</text>
+<path d="M195 365 V300 H460 V250" fill="none" stroke="#647875" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M560 365 V250" fill="none" stroke="#647875" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M925 365 V300 H640 V250" fill="none" stroke="#647875" stroke-width="2"  marker-end="url(#arrow)"/>
+<text x="40" y="605" font-size="14" fill="#516765">Supporting evidence feeds orchestration. Arrows do not specify exact runtime call order or iteration counts.</text>
+</g></svg>

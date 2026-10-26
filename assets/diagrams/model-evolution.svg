@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="380" viewBox="0 0 1120 380" role="img" aria-labelledby="title desc">
+<title id="title">From MVP to local inference</title><desc id="desc">The model setup evolved; retrieval and tool integration remained central.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10Z" fill="#647875"/></marker></defs>
+<rect width="1120" height="380" rx="18" fill="#f7f7f2"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="40" y="50" font-size="25" font-weight="700" fill="#182d2d">From MVP to local inference</text>
+<text x="40" y="79" font-size="15" fill="#516765">The model setup evolved; retrieval and tool integration remained central.</text>
+<rect x="40" y="135" width="310" height="135" rx="12" fill="#fff" stroke="#bacac4"/>
+<text x="58" y="165" font-size="18" font-weight="700" fill="#183c38">01 · GPT API</text>
+<text x="58" y="192" font-size="15" fill="#465e5a">First MVP</text>
+<text x="58" y="215" font-size="15" fill="#465e5a">Non-production data</text>
+<rect x="405" y="135" width="310" height="135" rx="12" fill="#e5efec" stroke="#bacac4"/>
+<text x="423" y="165" font-size="18" font-weight="700" fill="#183c38">02 · DeepSeek R1 7B</text>
+<text x="423" y="192" font-size="15" fill="#465e5a">Local iteration</text>
+<text x="423" y="215" font-size="15" fill="#465e5a">Hosted through vLLM</text>
+<rect x="770" y="135" width="310" height="135" rx="12" fill="#fff" stroke="#bacac4"/>
+<text x="788" y="165" font-size="18" font-weight="700" fill="#183c38">03 · Qwen / Mistral</text>
+<text x="788" y="192" font-size="15" fill="#465e5a">Development comparisons</text>
+<text x="788" y="215" font-size="15" fill="#465e5a">Alternative local variants</text>
+<path d="M350 200 H405" fill="none" stroke="#647875" stroke-width="2"  marker-end="url(#arrow)"/>
+<path d="M715 200 H770" fill="none" stroke="#647875" stroke-width="2"  marker-end="url(#arrow)"/>
+<text x="40" y="355" font-size="14" fill="#516765">Development history · not a benchmark, quality ranking, or simultaneous deployment claim.</text>
+</g></svg>
